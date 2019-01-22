@@ -2,7 +2,7 @@ package surprises;
 
 import java.util.Random;
 
-public final class GatherSurprises { // cannot make it both abstract and final, therefore in order to prevent it from being instanced, I will create an only constructor which is PRIVATE! 
+public final class GatherSurprises {  
 	private static final Random random = new Random();
 	
 	private GatherSurprises() { 
